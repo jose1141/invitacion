@@ -1208,8 +1208,8 @@
         }
 
         startScreen.addEventListener('click', () => {
-            // Reproducción original al 95% de velocidad
-            bgMusic.playbackRate = 0.95;
+            // Reproducción a velocidad normal
+            bgMusic.playbackRate = 1;
             bgMusic.volume = 0.6;
 
             bgMusic.play().catch(error => {
